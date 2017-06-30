@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*div {
+    border: 1px solid red;
+}*/
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+}
+
+h2 {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    background: black;
+}
+
+.header li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav a {
+    color: seashell;
+}
+
+.hero {
+    margin-top: 69px;
+    width: 1200px;
+    background-image: url("images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.hero .text {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin-bottom: 70px;
+}
+
+.center div {
+    text-align: center;
+}
+
+.center img {
+    width: 300px;
+    height: 200px;
+    margin: 20px 0 10px 0;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.berry,
+.rum,
+.myrtle {
+    margin-right: 50px;
+}
+
+.donuts {
+    margin-right: 0;
+}
+
+.locations {
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    background-image: url("images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.locations h2 {
+    margin-top: 75px;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    padding: 20px;
+}
+
+p {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.card {
+    background-color: black;
+    width: 300px;
+    margin-right: 40px;
+    opacity: 1;
+}
+
+.last {
+    border: 1px solid red;
+}
+
+.footer {
+    height: 200px;
+    text-align: center;
+}
+
+h5 {
+    padding: 20px;
+    margin: 0px;
+}
+
+.copyright {
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
